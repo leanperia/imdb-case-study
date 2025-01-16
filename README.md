@@ -2,7 +2,7 @@
 
 ## IMDb datasets Case Study on AAA movies
 
-This is my project on a case study for predicting AAA movies based on data from the IMDb Non-commercial datasets.
+This is my project on a case study for predicting AAA movies based on data from the [IMDb Non-commercial datasets](https://developer.imdb.com/non-commercial-datasets/).
 
 I added the following datasets: 
 - [MovieLens 32M 2023 dataset](https://grouplens.org/datasets/movielens/)
@@ -18,5 +18,5 @@ The notebook `webscraping.ipynb` is provided as an attempt to obtain box office 
 
 
 ## Movie Recommender on MovieLens dataset
-I wrote the notebook `movie_recommender.ipynb` training a recommender on the MovieLens 20M dataset.
+I wrote the notebook `movie_recommender.ipynb` training a recommender on the MovieLens 20M dataset. The model recommends `k` movies given a list of movies that the user likes. 
 I chose K-nearest neighbors and Non-negative Matrix Factorization.
