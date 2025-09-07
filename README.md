@@ -13,6 +13,11 @@ Below is the full process:
 2. Run `ingest_imdb.py`, `profile_datasets.py` and then `ingest_other_datasets.py`
 3. Continue running the code in `download_and_explore_data.ipynb`
 4. Run `predict_aaa_movies.ipynb`
+5. For an experimental, feature-rich workflow open `4_enhanced_revenue_model.ipynb`. Install extra dependencies with:
+   ```bash
+   pip install lightgbm catboost optuna featuretools networkx transformers sentencepiece kaggle pytrends
+   ```
+   This notebook demonstrates how to merge external box-office data (Box Office Mojo or The Numbers), critic scores (Rotten Tomatoes/Metacritic) and social-trend signals, generate network and text features, and train tuned LightGBM/CatBoost ensembles.
 
 The notebook `webscraping.ipynb` is provided as an attempt to obtain box office data from Wikidata. However I found out it is insufficient for my purposes. 
 
